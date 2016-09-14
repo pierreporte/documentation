@@ -1,9 +1,17 @@
 site_name: Otter Browser Documentation
+theme: readthedocs
 site_favicon: favicon.ico
 site_description: Otter Browser documentation
-copyright: © Otter Browser Team
+copyright: © Otter Browser Team — <a href="http://otter-browser.org">otter-browser.org</a>
 pages:
-- Home: "index.md"
-- User Guide:
-  - "Command Line": command-line.md
-- Bugs and Features: report-issue.md
+- Home: index.md
+- Basic features:
+  - "Speed dial": basic/speed-dial.md
+- Advanced features:
+  - "Command line": advanced/command-line.md
+- Customisation:
+  - "Built-in customisation": customisation/built-in-customisation.md
+  - "Extensions": customisation/extensions.md
+  - "User scripts": customisation/user-scripts.md
+  - "User styles": customisation/user-styles.md
+- Bugs and features: report-issue.md
