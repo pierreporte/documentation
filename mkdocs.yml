@@ -3,6 +3,7 @@ theme: readthedocs
 site_favicon: favicon.ico
 site_description: Otter Browser documentation
 copyright: © Otter Browser Team — <a href="http://otter-browser.org">otter-browser.org</a>
+use_directory_urls: false
 pages:
 - Home: index.md
 - Basic features:
