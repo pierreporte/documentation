@@ -7,8 +7,11 @@ use_directory_urls: false
 pages:
 - Home: index.md
 - Basic features:
+  - "Bookmarks": basic/bookmarks.md
+  - "History": basic/history.md
   - "Startup configuration": basic/startup-configuration.md
   - "Speed dial": basic/speed-dial.md
+  - "Search engines": basic/search-engines.md
 - Advanced features:
   - "Command line": advanced/command-line.md
 - Customisation:
