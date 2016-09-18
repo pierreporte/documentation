@@ -1,5 +1,5 @@
 site_name: Otter Browser Documentation
-theme: readthedocs
+theme_dir: theme
 site_favicon: favicon.ico
 site_description: Otter Browser documentation
 copyright: © Otter Browser Team — <a href="http://otter-browser.org">otter-browser.org</a>
