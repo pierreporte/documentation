@@ -11,14 +11,17 @@ header {
     margin-bottom: 1.875rem;
 }
 
-.menu .section-title {
-    /*text-transform: uppercase;
-    font-size: x-small;*/
+.menu-text.version {
+    font-weight: normal;
+}
+
+.vertical.menu .menu-text {
+    text-transform: uppercase;
 }
 
 .menu .active-page-title {
     color: black;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 .menu .active-page-toc {
