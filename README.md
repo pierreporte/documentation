@@ -6,7 +6,7 @@ This is the source of the documentation for [Otter Browser](http://otter-browser
 
 All pages are simple markdown files stored in the /docs directory and its sub-directories. The global configuration is stored in the /mkdocs.yml file.
 
-For now, it uses the [Read the Docs](https://readthedocs.org/) theme.
+It uses a custom theme based on the [Foundation 6](http://foundation.zurb.com/) framework.
 
 To build the documentation, move to the root directory (it contains mkdocs.yml) and execute this command:
 
