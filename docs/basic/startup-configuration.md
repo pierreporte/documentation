@@ -39,4 +39,5 @@ There are four options available. Click on the **Open** button to execute the se
 * **Begin with start page** does the same thing as the [Show start page section](#show-start-page) section.
 * **Begin with blank page** does the same thing as the [Show empty page section](#show-empty-page) section.
 
-Note that when Otter exits unexpectedly, its next start will show this window and you will be able to restore your previous session even if it was not saved.
+!!! note
+    When Otter exits unexpectedly, its next start will show this window and you will be able to restore your previous session even if it was not saved.

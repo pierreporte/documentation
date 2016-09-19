@@ -10,5 +10,6 @@ The documentation is divided into 5 main parts:
 * **Bugs and features**, dedicated to the procedure to follow when you encounter a bug or when you find that a feature is missing.
 * **Frequently asked questions**.
 
-To access the desired topic, use the menu on the left or the search box.
+!!! note
+    To access the desired topic, use the menu on the left or the search box.
 

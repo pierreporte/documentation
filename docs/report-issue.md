@@ -2,7 +2,8 @@
 
 If you think that you found a bug in Otter or if you think that a feature is missing, follow this guide.
 
-You must have a Github accound to report bug and request new features.
+!!! important
+    You must have a [Github](https://github.com) accound to report bug and request new features.
 
 ## You found a bug
 
