@@ -1,0 +1,30 @@
+body {
+    background: #e9e9e9;
+}
+
+div.row {
+    background: white;
+}
+
+header {
+    border-bottom: 1.875rem solid #e9e9e9;
+    margin-bottom: 1.875rem;
+}
+
+.menu .section-title {
+    /*text-transform: uppercase;
+    font-size: x-small;*/
+}
+
+.menu .active-page-title {
+    color: black;
+    font-weight: bold;
+}
+
+.menu .active-page-toc {
+    background: #e9e9e9;
+}
+
+#main h1 {
+    text-align: center;
+}

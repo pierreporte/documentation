@@ -14,22 +14,22 @@
         <script src="{{ base_url }}/js/vendor/what-input.min.js"></script>
         <script src="{{ base_url }}/js/vendor/foundation.min.js"></script>
         <div class="row">
-            <!--<header>
+            <header>
                 <ul class="menu">
                     <li class="menu-text">{{ site_name }}</li>
-                    <li><a href="#">Search</a>
+                    <li><a href="#">Search</a></li>
                 </ul>
-            </header>-->
-            <div class="small-3 columns">
+            </header>
+            <div id="sidebar" class="small-3 columns">
                 <ul class="vertical menu">
                     {% for nav_item in nav %}
                     {% if nav_item.children %}
                     <li>
-                        <a href="#">{{ nav_item.title }}</a>    
+                        <a href="#" class="section-title">{{ nav_item.title }}</a>
                         <ul class="menu vertical nested">
                             {% for nav_item in nav_item.children %}
-                            <li>
-                                <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
+                            <li{% if nav_item.active %} class="active-page-toc"{% endif %}>
+                                <a href="{{ nav_item.url }}" {% if nav_item.active %} class="active-page-title"{% endif %}></i>{{ nav_item.title }}</a>
                                 {% if toc and nav_item.active %}
                                 <ul class="menu vertical nested">
                                     {% for toc_item in toc %}
@@ -44,8 +44,8 @@
                         </ul>
                     </li>
                     {% else %}
-                    <li>
-                        <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
+                    <li class="section-title {% if nav_item.active %}active-page-toc{% endif %}">
+                        <a href="{{ nav_item.url }}" class="section-title{% if nav_item.active %} active-page-title{% endif %}">{{ nav_item.title }}</a>
                         {% if toc and nav_item.active %}
                         <ul class="menu vertical nested">
                             {% for toc_item in toc %}
@@ -60,7 +60,7 @@
                     {% endfor %}
                 </ul>
             </div>
-            <div class="small-9 columns">
+            <div id="main" class="small-9 columns">
                 <ul class="pagination text-center" role="navigation" aria-label="Pagination">
                     {% if previous_page %}
                     <li class="pagination-previous"><a href="{{ previous_page.url }}">{{ previous_page.title }}</a></li>
