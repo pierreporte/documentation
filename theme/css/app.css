@@ -17,6 +17,7 @@ header {
 
 .vertical.menu .menu-text {
     text-transform: uppercase;
+    font-weight: normal;
 }
 
 .menu .active-page-title {
