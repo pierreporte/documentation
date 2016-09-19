@@ -32,12 +32,21 @@ Otter doesn’t start direcly but greets you with the following window:
 
 ![](/images/startup-dialog.png)
 
-There are four options available. Click on the **Open** button to execute the selected action or **Cancel** to exit.
+There are four options available.
 
-* **Continue session** allows you to start a saved session with all its windows and tabs.
-* **Begin with home page** does the same thing as the [Show home page section](#show-home-page) section.
-* **Begin with start page** does the same thing as the [Show start page section](#show-start-page) section.
-* **Begin with blank page** does the same thing as the [Show empty page section](#show-empty-page) section.
+Continue session
+:   Allows you to start a saved session with all its windows and tabs.
+
+Begin with home page
+:   Does the same thing as described in the [Show home page section](#show-home-page) section.
+
+Begin with start page
+:   Does the same thing as described in the [Show start page section](#show-start-page) section.
+
+Begin with blank page
+:   Does the same thing as described in the [Show empty page section](#show-empty-page) section.
+
+Click on the **Open** button to execute the selected action or **Cancel** to exit.
 
 !!! note
     When Otter exits unexpectedly, its next start will show this window and you will be able to restore your previous session even if it was not saved.
