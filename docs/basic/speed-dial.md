@@ -12,7 +12,11 @@ Tiles can be created, opened, edited, reloaded, deleted, and moved. To create a 
 
 ## Adding tiles
 
-To add a tile, you can either right-click on empty space an select **Add Tile...** or simply clicking on the empty tile (see the [*Configuration* section](#configuration)) is present. The following dialog box appears:
+To add a tile, you can either right-click on empty space an select **Add Tile...** or simply clicking on the empty tile (see the picture below and the [*Configuration* section](#configuration)) is present.
+
+![Empty tile](/images/speed-dial-new-tile.png)
+
+The following dialog box appears:
 
 ![Add Tile dialog box](/images/speed-dial-add-tile-window.png)
 
@@ -30,4 +34,7 @@ To configure the speed dial, right-click on empty space and select **Configure..
 
 You can configure the background of the speed dial, the number of colums per row for the tiles array, the zoom level of the screenshots, and the visibility of the search field and the empty tile to create new ones.
 
-The background of the speed dial can be either the default color (it depends on the theme used by Otter, itself generally depends on the system configuration), a color you chose, or a picture. When a picture is selected, the background color is masked. To display a background color, you must clear the image path. The scaling mode allows you to set how the image will be repeated, scaled or cropped when its size is different of the speed dial size on the screen.
+The background of the speed dial can be either the default color (it depends on the theme used by Otter, itself generally depends on the system configuration), a color you chose, or a picture. The scaling mode allows you to set how the image will be repeated, scaled or cropped when its size is different of the speed dial size on the screen.
+
+!!! important
+    When a picture is selected, the background color is masked. To display a background color, you must clear the image path.
