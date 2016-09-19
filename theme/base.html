@@ -10,6 +10,7 @@
         <link rel="shortcut icon" href="{{ base_url }}/favicon.ico">
         <link rel="stylesheet" href="{{ base_url }}/css/foundation.min.css">
         <link rel="stylesheet" href="{{ base_url }}/css/app.css">
+        {% block extrahead %}{% endblock %}
     </head>
     <body>
         <div class="row">
@@ -18,7 +19,7 @@
                     <li class="menu-text">{{ site_name }}</li>
                     <li class="menu-text version">Version 0.9.11</li>
                     <li><a href="{{ base_url }}/index.html">Home</a></li>
-                    <li><a href="#">Search</a></li>
+                    <li><a href="{{ base_url }}/search.html">Search</a></li>
                 </ul>
             </header>
             <div id="sidebar" class="small-3 columns">
@@ -62,6 +63,7 @@
                 </ul>
             </div>
             <div id="main" class="small-9 columns">
+                {% if current_page %}
                 <ul class="pagination text-center" role="navigation" aria-label="Pagination">
                     {% if previous_page %}
                     <li class="pagination-previous"><a href="{{ previous_page.url }}">{{ previous_page.title }}</a></li>
@@ -75,7 +77,11 @@
                     <li class="pagination-next disabled">Next</li>
                     {% endif %}
                 </ul>
+                {% endif %}
+                {% block content %}
                 {{ content }}
+                {% endblock %}
+                {% if current_page %}
                 <ul class="pagination text-center" role="navigation" aria-label="Pagination">
                     {% if previous_page %}
                     <li class="pagination-previous"><a href="{{ previous_page.url }}">{{ previous_page.title }}</a></li>
@@ -89,6 +95,7 @@
                     <li class="pagination-next disabled">Next</li>
                     {% endif %}
                 </ul>
+                {% endif %}
             </div>
         </div>
     </body>
