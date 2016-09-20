@@ -10,7 +10,7 @@ It uses a custom theme based on the [Bulma](http://bulma.io/) framework. The CSS
 
 To build the documentation, move to the root directory (it contains mkdocs.yml) and execute these commands:
 
-    sass --scss ./bulma/bulma.sass --compressed > ./theme/css/bulma.min.css
+    sass --scss ./bulma/bulma.sass -t compressed > ./theme/css/bulma.min.css
     mkdocs build --clean
 
 The `sass` command, provided by the SCSS Ruby transpiler, is mandatory only when the SCSS source is modified.
