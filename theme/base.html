@@ -9,46 +9,53 @@
         <meta name="description" content="{{ site_description }}">
         <link rel="shortcut icon" href="{{ base_url }}/favicon.ico">
         <link rel="stylesheet" href="{{ base_url }}/css/bulma.min.css">
+        <link rel="stylesheet" href="{{ base_url }}/css/font-awesome.min.css">
         {% block extrahead %}{% endblock %}
     </head>
     <body>
-        <div class="row">
-            <header>
-                <ul class="menu">
-                    <li class="menu-text">{{ site_name }}</li>
-                    <li class="menu-text version">Version 0.9.11</li>
-                    <li><a href="{{ base_url }}/index.html">Home</a></li>
-                    <li><a href="{{ base_url }}/search.html">Search</a></li>
-                </ul>
-            </header>
-            <div id="sidebar" class="small-3 columns">
-                <ul class="vertical menu">
+        <header>
+            <nav class="nav has-shadow">
+                <div class="container">
+                    <div class="nav-left">
+                        <span class="nav-item is-brand">{{ site_name }}</span>
+                        <span class="nav-item"><span class="tag is-warning">0.9.11</span></span>
+                    </div>
+                    <div class="nav-right nav-menu">
+                        <form class="nav-item control has-addons" action="{{ base_url }}/search.html">
+                            <input type="text" class="input" placeholder="Keywords">
+                            <button type="submit" class="button is-primary">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container section">
+            <div class="columns">
+                <div id="sidebar" class="column is-one-quarter menu">
                     {% for nav_item in nav %}
                     {% if nav_item.children %}
-                    <li>
-                        <span class="menu-text">{{ nav_item.title }}</span>
-                        <ul class="menu vertical nested">
-                            {% for nav_item in nav_item.children %}
-                            <li{% if nav_item.active %} class="active-page-toc"{% endif %}>
-                                <a href="{{ nav_item.url }}" {% if nav_item.active %} class="active-page-title"{% endif %}>{{ nav_item.title }}</a>
-                                {% if toc and nav_item.active %}
-                                <ul class="menu vertical nested">
-                                    {% for toc_item in toc %}
-                                    {% for toc_item in toc_item.children %}
-                                    <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
-                                    {% endfor %}
-                                    {% endfor %}
-                                </ul>
-                                {% endif %}
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </li>
+                    <p class="menu-label">{{ nav_item.title }}</p>
+                    <ul class="menu-list">
+                        {% for nav_item in nav_item.children %}
+                        <li>
+                            <a href="{{ nav_item.url }}" {% if nav_item.active %} class="is-active"{% endif %}>{{ nav_item.title }}</a>
+                            {% if toc and nav_item.active %}
+                            <ul>
+                                {% for toc_item in toc %}
+                                {% for toc_item in toc_item.children %}
+                                <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                                {% endfor %}
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
                     {% else %}
-                    <li class="section-title {% if nav_item.active %}active-page-toc{% endif %}">
-                        <a href="{{ nav_item.url }}" class="section-title{% if nav_item.active %} active-page-title{% endif %}">{{ nav_item.title }}</a>
+                    <ul class="section-title {% if nav_item.active %}active-page-toc{% endif %}">
+                    <p class="menu-label"><a href="{{ nav_item.url }}" class="{% if nav_item.active %} active-page-title{% endif %}">{{ nav_item.title }}</a>
                         {% if toc and nav_item.active %}
-                        <ul class="menu vertical nested">
+                        <ul class="menu-list">
                             {% for toc_item in toc %}
                             {% for toc_item in toc_item.children %}
                             <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
@@ -56,46 +63,23 @@
                             {% endfor %}
                         </ul>
                         {% endif %}
-                    </li>
                     {% endif %}
                     {% endfor %}
-                </ul>
-            </div>
-            <div id="main" class="small-9 columns">
-                {% if current_page %}
-                <ul class="pagination text-center" role="navigation" aria-label="Pagination">
-                    {% if previous_page %}
-                    <li class="pagination-previous"><a href="{{ previous_page.url }}">{{ previous_page.title }}</a></li>
-                    {% else %}
-                    <li class="pagination-previous disabled">Previous</li>
-                    {% endif %}
-                    <li class="disabled">{{ current_page.title }}</li>
-                    {% if next_page %}
-                    <li class="pagination-next"><a href="{{ next_page.url }}" aria-label="Next page">{{ next_page.title }}</a></li>
-                    {% else %}
-                    <li class="pagination-next disabled">Next</li>
-                    {% endif %}
-                </ul>
-                {% endif %}
-                {% block content %}
-                {{ content }}
-                {% endblock %}
-                {% if current_page %}
-                <ul class="pagination text-center" role="navigation" aria-label="Pagination">
-                    {% if previous_page %}
-                    <li class="pagination-previous"><a href="{{ previous_page.url }}">{{ previous_page.title }}</a></li>
-                    {% else %}
-                    <li class="pagination-previous disabled">Previous</li>
-                    {% endif %}
-                    <li class="disabled">{{ current_page.title }}</li>
-                    {% if next_page %}
-                    <li class="pagination-next"><a href="{{ next_page.url }}" aria-label="Next page">{{ next_page.title }}</a></li>
-                    {% else %}
-                    <li class="pagination-next disabled">Next</li>
-                    {% endif %}
-                </ul>
-                {% endif %}
+                </div>
+                <div id="main" class="column auto">
+                    {% include "pagination.html" %}
+                    <div class="content">
+                        {% block content %}
+                        {{ content }}
+                        {% endblock %}
+                    </div>
+                    {% include "pagination.html" %}
+                </div>
             </div>
         </div>
+        <footer class="footer content has-text-centered">
+            <p>{{ copyright }}, 2016. Licenced under the GNU FDL</p>
+            <p><a href="#">Contribute to this documentation</a></p>
+        </footer>
     </body>
 </html>

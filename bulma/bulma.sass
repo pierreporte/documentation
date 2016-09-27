@@ -6,6 +6,38 @@
 @import "sass/components/components";
 @import "sass/layout/layout";
 
+#main div.content {
+    @extend .section;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+#main div.content h1:first-of-type {
+    text-align: center;
+}
+
 .admonition {
     @extend .message;
+}
+
+.admonition-title {
+    @extend .message-header;
+}
+
+.admonition p {
+    @extend .message-body;
+}
+
+.admonition.note {
+    @extend .is-primary;
+}
+
+
+.admonition.important {
+    @extend .is-warning;
+}
+
+#mkdocs-search-results header {
+    font-weight: bold;
 }

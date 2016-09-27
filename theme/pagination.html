@@ -1,0 +1,15 @@
+                    {% if current_page %}
+                    <nav class="pagination">
+                        {% if previous_page %}
+                        <a href="{{ previous_page.url }}" class="button">← {{ previous_page.title }}</a>
+                        {% else %}
+                        <a class="button is-disabled">←</a>
+                        {% endif %}
+                        {% if next_page %}
+                        <a href="{{ next_page.url }}" class="button">{{ next_page.title }} →</a>
+                        {% else %}
+                        <a class="button is-disabled">→</a>
+                        {% endif %}
+                        <ul><li><span>{{ current_page.title }}</span></li></ul>
+                    </nav>
+                    {% endif %}
