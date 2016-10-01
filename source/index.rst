@@ -19,8 +19,6 @@ This documentation is divided into 5 main parts:
     Procedure to follow when you encounter a bug or when you find that a feature is missing.
 :doc:`/faq`
     Direct answers to common questions. These questions can usually be answered by fetching information in the documentation and tryouts.
-:doc:`/test/index` (not a real part!)
-    For tests.
 
 .. toctree ::
    :maxdepth: 1
@@ -31,4 +29,3 @@ This documentation is divided into 5 main parts:
    customisation/index
    report-issue
    faq
-   test/index
