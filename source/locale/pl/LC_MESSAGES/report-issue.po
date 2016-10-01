@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Otter Browser Team
+# This file is distributed under the same license as the Otter Browser
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Otter Browser 0.9.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-01 18:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../source/report-issue.rst:2
+msgid "Bug report and feature request"
+msgstr ""
+
+#: ../../source/report-issue.rst:4
+msgid ""
+"If you think that you found a bug in Otter or if you think that a feature"
+" is wissing, follow this guide."
+msgstr ""
+
+#: ../../source/report-issue.rst:7
+msgid ""
+"You must have a `Github <https://github.com>`_ account to report bugs and"
+" request new features."
+msgstr ""
+
+#: ../../source/report-issue.rst:10
+msgid "You found a bug"
+msgstr ""
+
+#: ../../source/report-issue.rst:12
+msgid ""
+"The first thing to do is to note precisely what the bug is and how to "
+"reproduce it. Be as precise as possible. Depending on the issue, you may "
+"need to precise the configuration of your computer (especially the "
+"operating system name and version)."
+msgstr ""
+
+#: ../../source/report-issue.rst:13
+msgid ""
+"Then, go to `the bug tracker on Github <https://github.com/OtterBrowser"
+"/otter-browser/issues>`_. Search in existing issues (opened and closed "
+"ones) to see if someone else already reported something similar."
+msgstr ""
+
+#: ../../source/report-issue.rst:14
+msgid ""
+"If so, you should write a comment that describes how your situation "
+"differ (even a slight difference matters.) Else, if nobody reported a "
+"similar issue, you should create a new one explaining everything you "
+"noted in the first point."
+msgstr ""
+
+#: ../../source/report-issue.rst:17
+msgid "You want a new feature"
+msgstr ""
+
+#: ../../source/report-issue.rst:19
+msgid ""
+"Make sure the feature you want does not already exist. If it not "
+"obviously lacks after some research in the programme, you can ask the "
+"community."
+msgstr ""
+
+#: ../../source/report-issue.rst:20
+msgid ""
+"Go to `the bug tracker on Github <https://github.com/OtterBrowser/otter-"
+"browser/issues>`_. Check open and closed issues to determine if the "
+"feature you want has been requested, accepted or refused."
+msgstr ""
+
+#: ../../source/report-issue.rst:21
+msgid ""
+"If the feature has not been requested, open a new issue explaining your "
+"idea. Be as complete ase possible (don't hesitate to show pictures). If a"
+" similar feature has been requested, you can discuss and present how you "
+"imagine it."
+msgstr ""
+

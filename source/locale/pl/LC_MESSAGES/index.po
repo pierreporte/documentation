@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Otter Browser Team
+# This file is distributed under the same license as the Otter Browser
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Otter Browser 0.9.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-01 18:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../source/index.rst:2
+msgid "Otter Browser documentation"
+msgstr ""
+
+#: ../../source/index.rst:4
+msgid ""
+"Welcome to the documentation of Otter |version|. Here, you will learn how"
+" to use and customise your browser."
+msgstr ""
+
+#: ../../source/index.rst
+msgid "See a mistake?"
+msgstr ""
+
+#: ../../source/index.rst:8
+msgid ""
+"We try to write the best documentation but mistakes are always possible. "
+"If you see one, please :doc:`report it or correct it </mistakes>`."
+msgstr ""
+
+#: ../../source/index.rst:10
+msgid "This documentation is divided into 5 main parts:"
+msgstr ""
+
+#: ../../source/index.rst:12
+msgid ":doc:`/basic/index`"
+msgstr ""
+
+#: ../../source/index.rst:13
+msgid ""
+"For the most basic and the most used features that Otter provides to "
+"browse the web."
+msgstr ""
+
+#: ../../source/index.rst:14
+msgid ":doc:`/advanced/index`"
+msgstr ""
+
+#: ../../source/index.rst:15
+msgid ""
+"For the features that are generally beyond browsing the web in a simple "
+"way."
+msgstr ""
+
+#: ../../source/index.rst:16
+msgid ":doc:`/customisation/index`"
+msgstr ""
+
+#: ../../source/index.rst:17
+msgid "For the customisation of the browser."
+msgstr ""
+
+#: ../../source/index.rst:18
+msgid ":doc:`Bugs and features </report-issue>`"
+msgstr ""
+
+#: ../../source/index.rst:19
+msgid ""
+"Procedure to follow when you encounter a bug or when you find that a "
+"feature is missing."
+msgstr ""
+
+#: ../../source/index.rst:21
+msgid ":doc:`/faq`"
+msgstr ""
+
+#: ../../source/index.rst:21
+msgid ""
+"Direct answers to common questions. These questions can usually be "
+"answered by fetching information in the documentation and tryouts."
+msgstr ""
+

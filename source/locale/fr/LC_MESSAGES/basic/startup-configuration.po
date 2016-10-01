@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Otter Browser Team
+# This file is distributed under the same license as the Otter Browser
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Otter Browser 0.9.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-01 18:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../source/basic/startup-configuration.rst:2
+msgid "Startup configuration"
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:4
+msgid ""
+"This page describes how to set the behaviour of Otter at startup. The "
+"startup configuration is defined in the :guilabel:`Preferences` window, "
+"accessed though :menuselection:`Menu --> Settings --> Preferences...` or "
+"by pressing :kbd:`Ctrl+F12`, in the :guilabel:`Startup` section of the "
+":guilabel:`General` tab."
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:8
+msgid ":guilabel:`Preferences` window"
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:10
+msgid ""
+"The :menuselection:`Startup behaviour` drop-down list contains the five "
+"possible startup behaviours. They are explained below."
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:13
+msgid "Continue previous session"
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:15
+msgid ""
+"Otter reopens the same arrangment of tabs that was present the last time "
+"the browser was exited."
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:18
+msgid "Show home page"
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:20
+msgid ""
+"Otter opens with an URL specified in the :guilabel:`Home page` text entry"
+" below the :guilabel:`Startup behaviour` drop-down list."
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:22
+msgid ""
+"The URL can be entered directly, or be set to the URL of the current tab "
+"with the :guilabel:`Use Current Page` button, or chosen in your bookmarks"
+" with the :guilabel:`Use Bookmark` button. The :guilabel:`Restore to "
+"Default` Button clears the text entry field."
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:25
+msgid "Show start page"
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:27
+msgid "Otter opens with the :doc:`speed dial <speed-dial>`."
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:30
+msgid "Show empty page"
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:32
+msgid "Otter opens with an empty page."
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:35
+msgid "Show startup dialog"
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:37
+msgid "Otter doesn't start directly but greets you with the following window:"
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:41
+msgid "Startup dialog"
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:43
+msgid "There are four options available:"
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:45
+msgid ":guilabel:`Continue session`"
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:46
+msgid "Allows you to start a saved session with all its windows and tabs."
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:47
+msgid ":guilabel:`Begin with home page`"
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:48
+msgid "Does the same thing as described in the `Show home page`_ section."
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:49
+msgid ":guilabel:`Begin with start page`"
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:50
+msgid "Does the same thing as described in the `Show start page`_ section."
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:52
+msgid ":guilabel:`Begin with blank page`"
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:52
+msgid "Does the same thing as described in the `Show empty page`_ section."
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:54
+msgid ""
+"Click on the :guilabel:`Open` button to execute the selected action or "
+":guilabel:`Cancel` to exit."
+msgstr ""
+
+#: ../../source/basic/startup-configuration.rst:57
+msgid ""
+"When Otter exits unexpectedly, its next start will show this window and "
+"you will be abe to restore your previous session even if it was not "
+"explicitly saved."
+msgstr ""
+

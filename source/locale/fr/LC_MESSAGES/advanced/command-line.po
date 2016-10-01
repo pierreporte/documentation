@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Otter Browser Team
+# This file is distributed under the same license as the Otter Browser
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Otter Browser 0.9.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-01 18:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../source/advanced/command-line.rst:2
+msgid "Command line"
+msgstr ""
+
+#: ../../source/advanced/command-line.rst:5
+msgid ""
+"This is a copy of the Otter Browser man page, that you can acces by "
+"typing this command in a terminal::"
+msgstr ""
+
+#: ../../source/advanced/command-line.rst:10
+msgid "Synopsis"
+msgstr ""
+
+#: ../../source/advanced/command-line.rst:17
+msgid "Options"
+msgstr ""
+
+#: ../../source/advanced/command-line.rst:21
+msgid ""
+"Specifies the directory that profile (user data) is kept in. Defaults to "
+":file:`~/.config/otter`."
+msgstr ""
+
+#: ../../source/advanced/command-line.rst:25
+msgid ""
+"Specifies the directory that cache data is kept in. Defaults to "
+":file:`~/.cache/otter`."
+msgstr ""
+
+#: ../../source/advanced/command-line.rst:29
+msgid "Tries to load session specified by ``IDENTIFIER`` ."
+msgstr ""
+
+#: ../../source/advanced/command-line.rst:33
+msgid "Starts private session."
+msgstr ""
+
+#: ../../source/advanced/command-line.rst:37
+msgid "Forces session chooser dialog."
+msgstr ""
+
+#: ../../source/advanced/command-line.rst:41
+msgid ""
+"Sets profile and cache paths to directories inside the same directory as "
+"that of application binary."
+msgstr ""
+
+#: ../../source/advanced/command-line.rst:45
+msgid "Tells application to avoid writing data to disk."
+msgstr ""
+
+#: ../../source/advanced/command-line.rst:49
+msgid "Prints out diagnostic report and exits application."
+msgstr ""
+
+#: ../../source/advanced/command-line.rst:53
+msgid "Shows the list of supported command line options."
+msgstr ""
+
+#: ../../source/advanced/command-line.rst:57
+msgid "Shows version information."
+msgstr ""
+
+#: ../../source/advanced/command-line.rst:60
+msgid ""
+"As a Qt application, Otter also obeys Qt command-line flags, see `the Qt "
+"documentation "
+"<http://doc.qt.io/qt-5/qguiapplication.html#QGuiApplication>`_ for "
+"complete list."
+msgstr ""
+
+#: ../../source/advanced/command-line.rst:63
+msgid "Files"
+msgstr ""
+
+#: ../../source/advanced/command-line.rst:65
+msgid ":file:`~/.config/otter`"
+msgstr ""
+
+#: ../../source/advanced/command-line.rst:66
+msgid "Default directory for configuration data."
+msgstr ""
+
+#: ../../source/advanced/command-line.rst:67
+msgid ":file:`~/.cache/otter`"
+msgstr ""
+
+#: ../../source/advanced/command-line.rst:68
+msgid "Default directory for cache data."
+msgstr ""
+
