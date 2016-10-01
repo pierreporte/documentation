@@ -1,0 +1,262 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Speed dial &mdash; Otter Browser 0.9.12 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Otter Browser 0.9.12 documentation" href="../index.html"/>
+        <link rel="up" title="Basic features" href="index.html"/>
+        <link rel="next" title="Search engines" href="search-engines.html"/>
+        <link rel="prev" title="Startup configuration" href="startup-configuration.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Otter Browser
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.9.12
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Basic features</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="address-bar.html">Address bar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tabs-and-windows.html">Tabs and windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bookmarks.html">Bookmarks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="history.html">History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="startup-configuration.html">Startup configuration</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Speed dial</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#adding-tiles">Adding tiles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#editing-tiles">Editing tiles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#configuration">Configuration</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="search-engines.html">Search engines</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../advanced/index.html">Advanced features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customisation/index.html">Customisation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../report-issue.html">Bug report and feature request</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">Frequently asked questions</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Otter Browser</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="index.html">Basic features</a> &raquo;</li>
+      
+    <li>Speed dial</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/basic/speed-dial.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="speed-dial">
+<h1>Speed dial<a class="headerlink" href="#speed-dial" title="Permalink to this headline">¶</a></h1>
+<p>The speed dial allows you to build a page containing links to your favourite websites and a search field. It is generally used as <a class="reference external" href="startup-configuration">startup page</a> or as default page in new tabs. These links are simple bookmarks, but are stored in a specific folder. See the <a class="reference external" href="bookmarks">Bookmarks</a> page.</p>
+<div class="figure" id="id2">
+<img alt="../_images/speed-dial.png" src="../_images/speed-dial.png" />
+<p class="caption"><span class="caption-text">Otter opened with the speed dial as startup page.</span></p>
+</div>
+<p>You will notice the search field in the top of the page (its behaviour is eplained in the <a class="reference external" href="search-engines">dedicated page</a>) and some rectangles containing a screenshot of the webpages pointed by the chosen links, with a title. These rectangles are called <em>tiles</em>.</p>
+<p>Tiles can be created, opened, edited, reloaded, deleted, and moved. To create a tile, see the <a class="reference internal" href="#adding-tiles">Adding tiles</a> section. To open a tile, simply click on it, or right-click on in and select <span class="guilabel">Open</span>. To edit a tile, see the <a class="reference internal" href="#editing-tiles">Editing tiles</a> section. To reload a tile, right-click on it and select <span class="guilabel">Reload</span>. To delete a tile, right-click on it and select <span class="guilabel">Delete</span>. To move a tab, simply drag and drop it where you want it to be. Note that the tiles are arranged in a grid and cannot be moved freely on the window.</p>
+<div class="section" id="adding-tiles">
+<h2>Adding tiles<a class="headerlink" href="#adding-tiles" title="Permalink to this headline">¶</a></h2>
+<p>To add a tile, you can either right-click on empty space and select <span class="guilabel">Add Tile...</span> or simply clicking on the empty tile if it is present.</p>
+<div class="figure" id="id3">
+<img alt="../_images/speed-dial-new-tile.png" src="../_images/speed-dial-new-tile.png" />
+<p class="caption"><span class="caption-text">The empty tile</span></p>
+</div>
+<p>The following dialog box appears:</p>
+<div class="figure" id="id4">
+<img alt="../_images/speed-dial-add-tile-window.png" src="../_images/speed-dial-add-tile-window.png" />
+<p class="caption"><span class="caption-text"><span class="guilabel">Add Tile</span> dialog box.</span></p>
+</div>
+<p>Use the ently field to enter the desired URL. It behaves the same way as the address bar, hence you can use the completion. When you click on <span class="guilabel">OK</span>, the new tile is created with a screenshot of the web page it points to and its title.</p>
+</div>
+<div class="section" id="editing-tiles">
+<h2>Editing tiles<a class="headerlink" href="#editing-tiles" title="Permalink to this headline">¶</a></h2>
+<p>To edit a tile, right-click on it and select <span class="guilabel">Edit...</span>. Since tiles are bookmarks, editing a tiles is the same as editing a bookmark. Please read the Edit a bookmark section in the <a class="reference external" href="bookmarks">Bookmarks</a> page to learn how to edit speed dial tiles.</p>
+</div>
+<div class="section" id="configuration">
+<h2>Configuration<a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h2>
+<p>To configure the speed dial, right-click on empty space and select <span class="guilabel">Configure...</span>. The following window appears:</p>
+<div class="figure" id="id5">
+<img alt="../_images/speed-dial-preferences-window.png" src="../_images/speed-dial-preferences-window.png" />
+<p class="caption"><span class="caption-text">The <span class="guilabel">Start Page Preferences</span> window</span></p>
+</div>
+<p>You can configure the background of the speed dial, the number of colums per row for the tiles array, the zoom level of the screenshots, and the visibility of the search field and the empty tile to create new ones.</p>
+<p>The background of the speed dial can be either the default color (it depends on the theme used by Otter, itself generally depends on the system configuration), a color you chose, or a picture. The scaling mode allows you to set how the image will be repeated, scaled or cropped when its size is different of the speed dial size on the screen.</p>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">When a picture is selected, the background color is masked. To display a background color, you must clear the image path.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="search-engines.html" class="btn btn-neutral float-right" title="Search engines" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="startup-configuration.html" class="btn btn-neutral" title="Startup configuration" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, Otter Browser Team.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.9.12',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

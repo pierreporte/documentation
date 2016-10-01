@@ -1,0 +1,307 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Command line &mdash; Otter Browser 0.9.12 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Otter Browser 0.9.12 documentation" href="../index.html"/>
+        <link rel="up" title="Advanced features" href="index.html"/>
+        <link rel="next" title="about:config reference" href="about-config-reference.html"/>
+        <link rel="prev" title="Advanced features" href="index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Otter Browser
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.9.12
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basic/index.html">Basic features</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Advanced features</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Command line</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#synopsis">Synopsis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#options">Options</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#files">Files</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="about-config-reference.html">about:config reference</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../customisation/index.html">Customisation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../report-issue.html">Bug report and feature request</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">Frequently asked questions</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Otter Browser</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="index.html">Advanced features</a> &raquo;</li>
+      
+    <li>Command line</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/advanced/command-line.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="command-line">
+<h1>Command line<a class="headerlink" href="#command-line" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>This is a copy of the Otter Browser man page, that you can acces by typing this command in a terminal:</p>
+<div class="last highlight-default"><div class="highlight"><pre><span></span><span class="n">man</span> <span class="n">otter</span><span class="o">-</span><span class="n">browser</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="synopsis">
+<h2>Synopsis<a class="headerlink" href="#synopsis" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-none"><div class="highlight"><pre><span></span>otter-browser [OPTIONS] [PATH|URL|TERM...]
+</pre></div>
+</div>
+</div>
+<div class="section" id="options">
+<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<dl class="option">
+<dt id="cmdoption--profile">
+<code class="descname">--profile</code><code class="descclassname">=PATH</code><a class="headerlink" href="#cmdoption--profile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Specifies the directory that profile (user data) is kept in. Defaults to <code class="file docutils literal"><span class="pre">~/.config/otter</span></code>.</p>
+</dd></dl>
+
+<dl class="option">
+<dt id="cmdoption--cache">
+<code class="descname">--cache</code><code class="descclassname">=PATH</code><a class="headerlink" href="#cmdoption--cache" title="Permalink to this definition">¶</a></dt>
+<dd><p>Specifies the directory that cache data is kept in. Defaults to <code class="file docutils literal"><span class="pre">~/.cache/otter</span></code>.</p>
+</dd></dl>
+
+<dl class="option">
+<dt id="cmdoption--session">
+<code class="descname">--session</code><code class="descclassname">=IDENTIFIER</code><a class="headerlink" href="#cmdoption--session" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tries to load session specified by <code class="docutils literal"><span class="pre">IDENTIFIER</span></code> .</p>
+</dd></dl>
+
+<dl class="option">
+<dt id="cmdoption--privatesession">
+<code class="descname">--privatesession</code><code class="descclassname"></code><a class="headerlink" href="#cmdoption--privatesession" title="Permalink to this definition">¶</a></dt>
+<dd><p>Starts private session.</p>
+</dd></dl>
+
+<dl class="option">
+<dt id="cmdoption--sessionchooser">
+<code class="descname">--sessionchooser</code><code class="descclassname"></code><a class="headerlink" href="#cmdoption--sessionchooser" title="Permalink to this definition">¶</a></dt>
+<dd><p>Forces session chooser dialog.</p>
+</dd></dl>
+
+<dl class="option">
+<dt id="cmdoption--portable">
+<code class="descname">--portable</code><code class="descclassname"></code><a class="headerlink" href="#cmdoption--portable" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets profile and cache paths to directories inside the same directory as that of application binary.</p>
+</dd></dl>
+
+<dl class="option">
+<dt id="cmdoption--readonly">
+<code class="descname">--readonly</code><code class="descclassname"></code><a class="headerlink" href="#cmdoption--readonly" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tells application to avoid writing data to disk.</p>
+</dd></dl>
+
+<dl class="option">
+<dt id="cmdoption--report">
+<code class="descname">--report</code><code class="descclassname"></code><a class="headerlink" href="#cmdoption--report" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints out diagnostic report and exits application.</p>
+</dd></dl>
+
+<dl class="option">
+<dt id="cmdoption-h">
+<span id="cmdoption--help"></span><code class="descname">-h</code><code class="descclassname"></code><code class="descclassname">, </code><code class="descname">--help</code><code class="descclassname"></code><a class="headerlink" href="#cmdoption-h" title="Permalink to this definition">¶</a></dt>
+<dd><p>Shows the list of supported command line options.</p>
+</dd></dl>
+
+<dl class="option">
+<dt id="cmdoption-v">
+<span id="cmdoption--version"></span><code class="descname">-v</code><code class="descclassname"></code><code class="descclassname">, </code><code class="descname">--version</code><code class="descclassname"></code><a class="headerlink" href="#cmdoption-v" title="Permalink to this definition">¶</a></dt>
+<dd><p>Shows version information.</p>
+</dd></dl>
+
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">As a Qt application, Otter also obeys Qt command-line flags, see <a class="reference external" href="http://doc.qt.io/qt-5/qguiapplication.html#QGuiApplication">the Qt documentation</a> for complete list.</p>
+</div>
+</div>
+<div class="section" id="files">
+<h2>Files<a class="headerlink" href="#files" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt><code class="file docutils literal"><span class="pre">~/.config/otter</span></code></dt>
+<dd>Default directory for configuration data.</dd>
+<dt><code class="file docutils literal"><span class="pre">~/.cache/otter</span></code></dt>
+<dd>Default directory for cache data.</dd>
+</dl>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="about-config-reference.html" class="btn btn-neutral float-right" title="about:config reference" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Advanced features" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, Otter Browser Team.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.9.12',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

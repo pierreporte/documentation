@@ -1,0 +1,272 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Startup configuration &mdash; Otter Browser 0.9.12 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Otter Browser 0.9.12 documentation" href="../index.html"/>
+        <link rel="up" title="Basic features" href="index.html"/>
+        <link rel="next" title="Speed dial" href="speed-dial.html"/>
+        <link rel="prev" title="History" href="history.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Otter Browser
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.9.12
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Basic features</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="address-bar.html">Address bar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tabs-and-windows.html">Tabs and windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bookmarks.html">Bookmarks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="history.html">History</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Startup configuration</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#continue-previous-session">Continue previous session</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#show-home-page">Show home page</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#show-start-page">Show start page</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#show-empty-page">Show empty page</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#show-startup-dialog">Show startup dialog</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="speed-dial.html">Speed dial</a></li>
+<li class="toctree-l2"><a class="reference internal" href="search-engines.html">Search engines</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../advanced/index.html">Advanced features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customisation/index.html">Customisation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../report-issue.html">Bug report and feature request</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">Frequently asked questions</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Otter Browser</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="index.html">Basic features</a> &raquo;</li>
+      
+    <li>Startup configuration</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/basic/startup-configuration.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="startup-configuration">
+<h1>Startup configuration<a class="headerlink" href="#startup-configuration" title="Permalink to this headline">¶</a></h1>
+<p>This page describes how to set the behaviour of Otter at startup. The startup configuration is defined in the <span class="guilabel">Preferences</span> window, accessed though <span class="menuselection">Menu ‣ Settings ‣ Preferences...</span> or by pressing <code class="kbd docutils literal"><span class="pre">Ctrl+F12</span></code>, in the <span class="guilabel">Startup</span> section of the <span class="guilabel">General</span> tab.</p>
+<div class="figure" id="id1">
+<img alt="../_images/preferences-window-general-tab.png" src="../_images/preferences-window-general-tab.png" />
+<p class="caption"><span class="caption-text"><span class="guilabel">Preferences</span> window</span></p>
+</div>
+<p>The <span class="menuselection">Startup behaviour</span> drop-down list contains the five possible startup behaviours. They are explained below.</p>
+<div class="section" id="continue-previous-session">
+<h2>Continue previous session<a class="headerlink" href="#continue-previous-session" title="Permalink to this headline">¶</a></h2>
+<p>Otter reopens the same arrangment of tabs that was present the last time the browser was exited.</p>
+</div>
+<div class="section" id="show-home-page">
+<h2>Show home page<a class="headerlink" href="#show-home-page" title="Permalink to this headline">¶</a></h2>
+<p>Otter opens with an URL specified in the <span class="guilabel">Home page</span> text entry below the <span class="guilabel">Startup behaviour</span> drop-down list.</p>
+<p>The URL can be entered directly, or be set to the URL of the current tab with the <span class="guilabel">Use Current Page</span> button, or chosen in your bookmarks with the <span class="guilabel">Use Bookmark</span> button. The <span class="guilabel">Restore to Default</span> Button clears the text entry field.</p>
+</div>
+<div class="section" id="show-start-page">
+<h2>Show start page<a class="headerlink" href="#show-start-page" title="Permalink to this headline">¶</a></h2>
+<p>Otter opens with the <a class="reference internal" href="speed-dial.html"><span class="doc">speed dial</span></a>.</p>
+</div>
+<div class="section" id="show-empty-page">
+<h2>Show empty page<a class="headerlink" href="#show-empty-page" title="Permalink to this headline">¶</a></h2>
+<p>Otter opens with an empty page.</p>
+</div>
+<div class="section" id="show-startup-dialog">
+<h2>Show startup dialog<a class="headerlink" href="#show-startup-dialog" title="Permalink to this headline">¶</a></h2>
+<p>Otter doesn&#8217;t start directly but greets you with the following window:</p>
+<div class="figure" id="id2">
+<img alt="../_images/startup-dialog.png" src="../_images/startup-dialog.png" />
+<p class="caption"><span class="caption-text">Startup dialog</span></p>
+</div>
+<p>There are four options available:</p>
+<dl class="docutils">
+<dt><span class="guilabel">Continue session</span></dt>
+<dd>Allows you to start a saved session with all its windows and tabs.</dd>
+<dt><span class="guilabel">Begin with home page</span></dt>
+<dd>Does the same thing as described in the <a class="reference internal" href="#show-home-page">Show home page</a> section.</dd>
+<dt><span class="guilabel">Begin with start page</span></dt>
+<dd>Does the same thing as described in the <a class="reference internal" href="#show-start-page">Show start page</a> section.</dd>
+<dt><span class="guilabel">Begin with blank page</span></dt>
+<dd>Does the same thing as described in the <a class="reference internal" href="#show-empty-page">Show empty page</a> section.</dd>
+</dl>
+<p>Click on the <span class="guilabel">Open</span> button to execute the selected action or <span class="guilabel">Cancel</span> to exit.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">When Otter exits unexpectedly, its next start will show this window and you will be abe to restore your previous session even if it was not explicitly saved.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="speed-dial.html" class="btn btn-neutral float-right" title="Speed dial" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="history.html" class="btn btn-neutral" title="History" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, Otter Browser Team.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.9.12',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
