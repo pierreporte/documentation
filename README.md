@@ -42,7 +42,7 @@ Only one language can be specified. The files will be generated in the `/build/h
 PO files translation
 --------------------
 
-The PO files containes multiple
+The empty PO files containes multiple lines like this:
 
     #: ../../page.rst:42
     msgid ""
@@ -51,3 +51,5 @@ The PO files containes multiple
     msgstr ""
 
 The line `#: ../../page.rst:42` indicades which file is translated and the line number where the text to be translated is located. Follows the `msgid` keyword followed by the text to be translated (may be broken on multiple strings, one per line). The translation is located after the `msgstr` keyword, in strings as well (it is not mandatory to keep the same format as the original). **Note that reStructuredText syntax *MUST* be preserved!** PO files editors are often helpful on this point.
+
+When the `msgstr` is followed by an empty string (`""`), as it is always when the PO files are newly created, the corresponding text remains in the original language when the translated documentation is build.
