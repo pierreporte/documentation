@@ -24,6 +24,8 @@ This documentation is divided into 5 main parts:
 :doc:`/faq`
     Direct answers to common questions. These questions can usually be answered by fetching information in the documentation and tryouts.
 
+Otter is a collaborative project, and its documentation as well. If you want to improve or correct it, don't hesitate to visit `the dedicated repository <https://github.com/pierreporte/otter-browser-docs>`_.
+
 .. toctree ::
    :maxdepth: 1
    :hidden:
