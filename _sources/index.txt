@@ -1,6 +1,10 @@
 Otter Browser documentation
 ===========================
 
+.. warning ::
+
+   What you are reading is a draft for the |version| version of Otter, which is still in development. Please do not rely on any information stated.
+
 Welcome to the documentation of Otter |version|. Here, you will learn how to use and customise your browser.
 
 .. sidebar :: See a mistake?
