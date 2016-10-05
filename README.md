@@ -10,9 +10,11 @@ Build the documentation
 
 To build the documentation, move to the root directory (it contains the makefile) and execute this command:
 
-    make html
+    ./build.py html
 
-The files are generated into the `/build/html` directory.
+The files are generated into the `/build/html/default` directory.
+
+Usually, a Makefile is used with Sphinx documentations. However, we have specific needs, especially for internationalisation, that couldn’t be fully satisfied with the default build system. For this reason, we use a Python scripts that does pretty much the same thing but with the exact behaviour we need.
 
 This simple command builds the documentation with the default langage (here, English). To build the different version for each language, follow the procedure described below.
 
@@ -23,21 +25,21 @@ Basically everything is described in the [*Internationalization*](http://www.sph
 
 The first step is to generate the templates for the translation files (POT files) with this command:
 
-    make gettext
+    ./build.py gettext
 
 The POT files are located in the `/build/locale` directory. This has to be done when the original text is updated.
 
 The second step is to generate or update the PO files from the POT files, one set for each language. Run this command:
 
-    sphinx-intl update -p build/locale -l <lang>
+    ./build.py intl <lang>
 
-`<lang>` is the selected language. You can specify an arbitrary number of languages: `-l fr -l de -l pl ...`. The PO files will contains the translation. See the section below for details.
+`<lang>` is the selected language. You can specify an arbitrary number of languages: `./build.py intl fr de pl ...`. The PO files will contains the translation. See the section below for details.
 
 To build the translated version of the documentation, the following command must be used:
 
-    make -e SPHINXOPTS="-D language='<lang>'" html
+    ./build.py html <lang>
 
-Only one language can be specified. The files will be generated in the `/build/html` directory and will replace the original ones.
+Only one language can be specified. The files will be generated in the `/build/html/<lang>` directory.
 
 PO files translation
 --------------------
